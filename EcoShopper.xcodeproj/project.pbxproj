@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E124F2D92746507000FC8C5C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124F2D82746507000FC8C5C /* Category.swift */; };
+		E124F2DA2746507000FC8C5C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124F2D82746507000FC8C5C /* Category.swift */; };
+		E124F2DC2746588200FC8C5C /* OnboardingOutroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124F2DB2746588200FC8C5C /* OnboardingOutroView.swift */; };
+		E124F2DD2746588200FC8C5C /* OnboardingOutroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124F2DB2746588200FC8C5C /* OnboardingOutroView.swift */; };
+		E124F2DF2747107C00FC8C5C /* ToastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124F2DE2747107C00FC8C5C /* ToastMessage.swift */; };
+		E124F2E02747107C00FC8C5C /* ToastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124F2DE2747107C00FC8C5C /* ToastMessage.swift */; };
+		E124F2E22747236B00FC8C5C /* UseUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124F2E12747236B00FC8C5C /* UseUpView.swift */; };
+		E124F2E32747236B00FC8C5C /* UseUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124F2E12747236B00FC8C5C /* UseUpView.swift */; };
+		E12D622A275DA7C70095C3A6 /* PlanItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D6229275DA7C70095C3A6 /* PlanItemView.swift */; };
+		E12D622B275DA7C70095C3A6 /* PlanItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D6229275DA7C70095C3A6 /* PlanItemView.swift */; };
+		E12D622D275DAED70095C3A6 /* ShoppingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D622C275DAED70095C3A6 /* ShoppingItemView.swift */; };
+		E12D622E275DAED70095C3A6 /* ShoppingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D622C275DAED70095C3A6 /* ShoppingItemView.swift */; };
+		E12D6230275DB5750095C3A6 /* CookingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D622F275DB5750095C3A6 /* CookingModeView.swift */; };
+		E12D6231275DB5750095C3A6 /* CookingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D622F275DB5750095C3A6 /* CookingModeView.swift */; };
+		E12D6233275ECA5C0095C3A6 /* ShoppingListCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D6232275ECA5C0095C3A6 /* ShoppingListCategory.swift */; };
+		E12D6234275ECA5C0095C3A6 /* ShoppingListCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D6232275ECA5C0095C3A6 /* ShoppingListCategory.swift */; };
+		E1413A4E2742AE4B0039A24C /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1413A4D2742AE4B0039A24C /* SplashScreenView.swift */; };
+		E1413A502742AF920039A24C /* AllergiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1413A4F2742AF920039A24C /* AllergiesView.swift */; };
+		E1413A522742AFA20039A24C /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1413A512742AFA20039A24C /* PreferencesView.swift */; };
+		E1413A542742B2800039A24C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1413A532742B2800039A24C /* OnboardingView.swift */; };
+		E1413A562742BD070039A24C /* Allergy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1413A552742BD070039A24C /* Allergy.swift */; };
+		E1413A582742C03F0039A24C /* AllergyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1413A572742C03F0039A24C /* AllergyModal.swift */; };
+		E15158D92745ED070032F3A5 /* StaticData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15158D82745ED070032F3A5 /* StaticData.swift */; };
+		E15158DA2745ED070032F3A5 /* StaticData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15158D82745ED070032F3A5 /* StaticData.swift */; };
+		E16F92B127461491002ADCB9 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F92B027461491002ADCB9 /* OnboardingPageView.swift */; };
+		E1980829272B287F004029D9 /* EcoShopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1980819272B287D004029D9 /* EcoShopperApp.swift */; };
+		E198082A272B287F004029D9 /* EcoShopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1980819272B287D004029D9 /* EcoShopperApp.swift */; };
+		E198082B272B287F004029D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198081A272B287D004029D9 /* ContentView.swift */; };
+		E198082C272B287F004029D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198081A272B287D004029D9 /* ContentView.swift */; };
+		E198082D272B287F004029D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E198081B272B287F004029D9 /* Assets.xcassets */; };
+		E198082E272B287F004029D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E198081B272B287F004029D9 /* Assets.xcassets */; };
+		E1980838272B2B66004029D9 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1980837272B2B66004029D9 /* RecipeView.swift */; };
+		E1980839272B2B66004029D9 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1980837272B2B66004029D9 /* RecipeView.swift */; };
+		E198083B2730A731004029D9 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198083A2730A731004029D9 /* Recipe.swift */; };
+		E198083C2730A731004029D9 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198083A2730A731004029D9 /* Recipe.swift */; };
+		E198083E2730A73E004029D9 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198083D2730A73E004029D9 /* Ingredient.swift */; };
+		E198083F2730A73E004029D9 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198083D2730A73E004029D9 /* Ingredient.swift */; };
+		E19808412731D198004029D9 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19808402731D198004029D9 /* RecipeViewModel.swift */; };
+		E19808422731D198004029D9 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19808402731D198004029D9 /* RecipeViewModel.swift */; };
+		E198084A2731E049004029D9 /* RecipeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19808492731E049004029D9 /* RecipeModal.swift */; };
+		E198084B2731E049004029D9 /* RecipeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19808492731E049004029D9 /* RecipeModal.swift */; };
+		E198084D27342D9B004029D9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198084C27342D9B004029D9 /* UserData.swift */; };
+		E198084E27342D9B004029D9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198084C27342D9B004029D9 /* UserData.swift */; };
+		E198085027343776004029D9 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198084F27343776004029D9 /* PlanView.swift */; };
+		E198085127343776004029D9 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198084F27343776004029D9 /* PlanView.swift */; };
+		E19808562734797E004029D9 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19808552734797E004029D9 /* ShoppingView.swift */; };
+		E19808572734797E004029D9 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19808552734797E004029D9 /* ShoppingView.swift */; };
+		E198085927349478004029D9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198085827349478004029D9 /* ProfileView.swift */; };
+		E198085A27349478004029D9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198085827349478004029D9 /* ProfileView.swift */; };
+		E1E5D56E274BFE3F0002CB87 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5D56D274BFE3F0002CB87 /* Extensions.swift */; };
+		E1E5D56F274BFE3F0002CB87 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5D56D274BFE3F0002CB87 /* Extensions.swift */; };
+		E1E5D571274C10F70002CB87 /* RecipeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5D570274C10F70002CB87 /* RecipeItemView.swift */; };
+		E1E5D572274C10F70002CB87 /* RecipeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5D570274C10F70002CB87 /* RecipeItemView.swift */; };
+		E1E5D577274F1A0F0002CB87 /* AchievementModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5D576274F1A0F0002CB87 /* AchievementModal.swift */; };
+		E1E5D578274F1A100002CB87 /* AchievementModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5D576274F1A0F0002CB87 /* AchievementModal.swift */; };
+		E1E5D57A274F67640002CB87 /* PantryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5D579274F67630002CB87 /* PantryView.swift */; };
+		E1E5D57B274F67640002CB87 /* PantryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5D579274F67630002CB87 /* PantryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E124F2D82746507000FC8C5C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E124F2DB2746588200FC8C5C /* OnboardingOutroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingOutroView.swift; sourceTree = "<group>"; };
+		E124F2DE2747107C00FC8C5C /* ToastMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessage.swift; sourceTree = "<group>"; };
+		E124F2E12747236B00FC8C5C /* UseUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseUpView.swift; sourceTree = "<group>"; };
+		E12D6229275DA7C70095C3A6 /* PlanItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanItemView.swift; sourceTree = "<group>"; };
+		E12D622C275DAED70095C3A6 /* ShoppingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemView.swift; sourceTree = "<group>"; };
+		E12D622F275DB5750095C3A6 /* CookingModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingModeView.swift; sourceTree = "<group>"; };
+		E12D6232275ECA5C0095C3A6 /* ShoppingListCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListCategory.swift; sourceTree = "<group>"; };
+		E1413A4D2742AE4B0039A24C /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		E1413A4F2742AF920039A24C /* AllergiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiesView.swift; sourceTree = "<group>"; };
+		E1413A512742AFA20039A24C /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		E1413A532742B2800039A24C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E1413A552742BD070039A24C /* Allergy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allergy.swift; sourceTree = "<group>"; };
+		E1413A572742C03F0039A24C /* AllergyModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyModal.swift; sourceTree = "<group>"; };
+		E15158D82745ED070032F3A5 /* StaticData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticData.swift; sourceTree = "<group>"; };
+		E16F92B027461491002ADCB9 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		E1980819272B287D004029D9 /* EcoShopperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoShopperApp.swift; sourceTree = "<group>"; };
+		E198081A272B287D004029D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E198081B272B287F004029D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1980820272B287F004029D9 /* EcoShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1980826272B287F004029D9 /* EcoShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1980828272B287F004029D9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E1980837272B2B66004029D9 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		E198083A2730A731004029D9 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		E198083D2730A73E004029D9 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		E19808402731D198004029D9 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		E19808492731E049004029D9 /* RecipeModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModal.swift; sourceTree = "<group>"; };
+		E198084C27342D9B004029D9 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		E198084F27343776004029D9 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		E19808552734797E004029D9 /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
+		E198085827349478004029D9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E1E5D56D274BFE3F0002CB87 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E1E5D570274C10F70002CB87 /* RecipeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItemView.swift; sourceTree = "<group>"; };
+		E1E5D576274F1A0F0002CB87 /* AchievementModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementModal.swift; sourceTree = "<group>"; };
+		E1E5D579274F67630002CB87 /* PantryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E198081D272B287F004029D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1980823272B287F004029D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1413A482742AC9B0039A24C /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				E19808492731E049004029D9 /* RecipeModal.swift */,
+				E1980837272B2B66004029D9 /* RecipeView.swift */,
+				E19808402731D198004029D9 /* RecipeViewModel.swift */,
+				E124F2E12747236B00FC8C5C /* UseUpView.swift */,
+				E1E5D570274C10F70002CB87 /* RecipeItemView.swift */,
+				E1E5D576274F1A0F0002CB87 /* AchievementModal.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		E1413A492742ACBE0039A24C /* Plan */ = {
+			isa = PBXGroup;
+			children = (
+				E198084F27343776004029D9 /* PlanView.swift */,
+				E12D6229275DA7C70095C3A6 /* PlanItemView.swift */,
+				E12D622F275DB5750095C3A6 /* CookingModeView.swift */,
+			);
+			path = Plan;
+			sourceTree = "<group>";
+		};
+		E1413A4A2742ACD20039A24C /* Shopping List */ = {
+			isa = PBXGroup;
+			children = (
+				E124F2DE2747107C00FC8C5C /* ToastMessage.swift */,
+				E19808552734797E004029D9 /* ShoppingView.swift */,
+				E12D622C275DAED70095C3A6 /* ShoppingItemView.swift */,
+				E12D6232275ECA5C0095C3A6 /* ShoppingListCategory.swift */,
+			);
+			path = "Shopping List";
+			sourceTree = "<group>";
+		};
+		E1413A4B2742ACED0039A24C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E198085827349478004029D9 /* ProfileView.swift */,
+				E1E5D579274F67630002CB87 /* PantryView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E1413A4C2742AD0E0039A24C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E1413A4D2742AE4B0039A24C /* SplashScreenView.swift */,
+				E1413A4F2742AF920039A24C /* AllergiesView.swift */,
+				E1413A512742AFA20039A24C /* PreferencesView.swift */,
+				E1413A532742B2800039A24C /* OnboardingView.swift */,
+				E1413A572742C03F0039A24C /* AllergyModal.swift */,
+				E16F92B027461491002ADCB9 /* OnboardingPageView.swift */,
+				E124F2DB2746588200FC8C5C /* OnboardingOutroView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E1980813272B287D004029D9 = {
+			isa = PBXGroup;
+			children = (
+				E1980818272B287D004029D9 /* Shared */,
+				E1980827272B287F004029D9 /* macOS */,
+				E1980821272B287F004029D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1980818272B287D004029D9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E1E5D57C275C2F210002CB87 /* Model */,
+				E1413A4C2742AD0E0039A24C /* Onboarding */,
+				E1413A4B2742ACED0039A24C /* Profile */,
+				E1413A4A2742ACD20039A24C /* Shopping List */,
+				E1413A492742ACBE0039A24C /* Plan */,
+				E1413A482742AC9B0039A24C /* Recipes */,
+				E198081B272B287F004029D9 /* Assets.xcassets */,
+				E198081A272B287D004029D9 /* ContentView.swift */,
+				E1980819272B287D004029D9 /* EcoShopperApp.swift */,
+				E1E5D56D274BFE3F0002CB87 /* Extensions.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E1980821272B287F004029D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1980820272B287F004029D9 /* EcoShopper.app */,
+				E1980826272B287F004029D9 /* EcoShopper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1980827272B287F004029D9 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E1980828272B287F004029D9 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E1E5D57C275C2F210002CB87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E15158D82745ED070032F3A5 /* StaticData.swift */,
+				E198083D2730A73E004029D9 /* Ingredient.swift */,
+				E198083A2730A731004029D9 /* Recipe.swift */,
+				E1413A552742BD070039A24C /* Allergy.swift */,
+				E124F2D82746507000FC8C5C /* Category.swift */,
+				E198084C27342D9B004029D9 /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E198081F272B287F004029D9 /* EcoShopper (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1980831272B287F004029D9 /* Build configuration list for PBXNativeTarget "EcoShopper (iOS)" */;
+			buildPhases = (
+				E198081C272B287F004029D9 /* Sources */,
+				E198081D272B287F004029D9 /* Frameworks */,
+				E198081E272B287F004029D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EcoShopper (iOS)";
+			productName = "EcoShopper (iOS)";
+			productReference = E1980820272B287F004029D9 /* EcoShopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1980825272B287F004029D9 /* EcoShopper (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1980834272B287F004029D9 /* Build configuration list for PBXNativeTarget "EcoShopper (macOS)" */;
+			buildPhases = (
+				E1980822272B287F004029D9 /* Sources */,
+				E1980823272B287F004029D9 /* Frameworks */,
+				E1980824272B287F004029D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EcoShopper (macOS)";
+			productName = "EcoShopper (macOS)";
+			productReference = E1980826272B287F004029D9 /* EcoShopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1980814272B287D004029D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E198081F272B287F004029D9 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E1980825272B287F004029D9 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = E1980817272B287D004029D9 /* Build configuration list for PBXProject "EcoShopper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1980813272B287D004029D9;
+			productRefGroup = E1980821272B287F004029D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E198081F272B287F004029D9 /* EcoShopper (iOS) */,
+				E1980825272B287F004029D9 /* EcoShopper (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E198081E272B287F004029D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E198082D272B287F004029D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1980824272B287F004029D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E198082E272B287F004029D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E198081C272B287F004029D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1980838272B2B66004029D9 /* RecipeView.swift in Sources */,
+				E198084A2731E049004029D9 /* RecipeModal.swift in Sources */,
+				E19808562734797E004029D9 /* ShoppingView.swift in Sources */,
+				E124F2DF2747107C00FC8C5C /* ToastMessage.swift in Sources */,
+				E198085027343776004029D9 /* PlanView.swift in Sources */,
+				E124F2E22747236B00FC8C5C /* UseUpView.swift in Sources */,
+				E1E5D571274C10F70002CB87 /* RecipeItemView.swift in Sources */,
+				E198085927349478004029D9 /* ProfileView.swift in Sources */,
+				E198084D27342D9B004029D9 /* UserData.swift in Sources */,
+				E198082B272B287F004029D9 /* ContentView.swift in Sources */,
+				E1413A502742AF920039A24C /* AllergiesView.swift in Sources */,
+				E1413A562742BD070039A24C /* Allergy.swift in Sources */,
+				E12D6230275DB5750095C3A6 /* CookingModeView.swift in Sources */,
+				E12D6233275ECA5C0095C3A6 /* ShoppingListCategory.swift in Sources */,
+				E1413A4E2742AE4B0039A24C /* SplashScreenView.swift in Sources */,
+				E124F2DC2746588200FC8C5C /* OnboardingOutroView.swift in Sources */,
+				E1E5D577274F1A0F0002CB87 /* AchievementModal.swift in Sources */,
+				E12D622D275DAED70095C3A6 /* ShoppingItemView.swift in Sources */,
+				E1E5D57A274F67640002CB87 /* PantryView.swift in Sources */,
+				E198083E2730A73E004029D9 /* Ingredient.swift in Sources */,
+				E1413A522742AFA20039A24C /* PreferencesView.swift in Sources */,
+				E1980829272B287F004029D9 /* EcoShopperApp.swift in Sources */,
+				E19808412731D198004029D9 /* RecipeViewModel.swift in Sources */,
+				E1413A582742C03F0039A24C /* AllergyModal.swift in Sources */,
+				E1413A542742B2800039A24C /* OnboardingView.swift in Sources */,
+				E1E5D56E274BFE3F0002CB87 /* Extensions.swift in Sources */,
+				E15158D92745ED070032F3A5 /* StaticData.swift in Sources */,
+				E198083B2730A731004029D9 /* Recipe.swift in Sources */,
+				E16F92B127461491002ADCB9 /* OnboardingPageView.swift in Sources */,
+				E12D622A275DA7C70095C3A6 /* PlanItemView.swift in Sources */,
+				E124F2D92746507000FC8C5C /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1980822272B287F004029D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1980839272B2B66004029D9 /* RecipeView.swift in Sources */,
+				E198084B2731E049004029D9 /* RecipeModal.swift in Sources */,
+				E19808572734797E004029D9 /* ShoppingView.swift in Sources */,
+				E198085127343776004029D9 /* PlanView.swift in Sources */,
+				E1E5D57B274F67640002CB87 /* PantryView.swift in Sources */,
+				E198085A27349478004029D9 /* ProfileView.swift in Sources */,
+				E198084E27342D9B004029D9 /* UserData.swift in Sources */,
+				E12D6234275ECA5C0095C3A6 /* ShoppingListCategory.swift in Sources */,
+				E198082C272B287F004029D9 /* ContentView.swift in Sources */,
+				E198083F2730A73E004029D9 /* Ingredient.swift in Sources */,
+				E15158DA2745ED070032F3A5 /* StaticData.swift in Sources */,
+				E198082A272B287F004029D9 /* EcoShopperApp.swift in Sources */,
+				E124F2DD2746588200FC8C5C /* OnboardingOutroView.swift in Sources */,
+				E12D622B275DA7C70095C3A6 /* PlanItemView.swift in Sources */,
+				E19808422731D198004029D9 /* RecipeViewModel.swift in Sources */,
+				E12D6231275DB5750095C3A6 /* CookingModeView.swift in Sources */,
+				E198083C2730A731004029D9 /* Recipe.swift in Sources */,
+				E1E5D578274F1A100002CB87 /* AchievementModal.swift in Sources */,
+				E124F2E02747107C00FC8C5C /* ToastMessage.swift in Sources */,
+				E1E5D56F274BFE3F0002CB87 /* Extensions.swift in Sources */,
+				E124F2E32747236B00FC8C5C /* UseUpView.swift in Sources */,
+				E12D622E275DAED70095C3A6 /* ShoppingItemView.swift in Sources */,
+				E124F2DA2746507000FC8C5C /* Category.swift in Sources */,
+				E1E5D572274C10F70002CB87 /* RecipeItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E198082F272B287F004029D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1980830272B287F004029D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E1980832272B287F004029D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VC8T6Y789X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamf520.ecoshopper;
+				PRODUCT_NAME = EcoShopper;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E1980833272B287F004029D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VC8T6Y789X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamf520.ecoshopper;
+				PRODUCT_NAME = EcoShopper;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1980835272B287F004029D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U9LJ8FPA68;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teamf520.EcoShopper;
+				PRODUCT_NAME = EcoShopper;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1980836272B287F004029D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U9LJ8FPA68;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teamf520.EcoShopper;
+				PRODUCT_NAME = EcoShopper;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1980817272B287D004029D9 /* Build configuration list for PBXProject "EcoShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E198082F272B287F004029D9 /* Debug */,
+				E1980830272B287F004029D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1980831272B287F004029D9 /* Build configuration list for PBXNativeTarget "EcoShopper (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1980832272B287F004029D9 /* Debug */,
+				E1980833272B287F004029D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1980834272B287F004029D9 /* Build configuration list for PBXNativeTarget "EcoShopper (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1980835272B287F004029D9 /* Debug */,
+				E1980836272B287F004029D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1980814272B287D004029D9 /* Project object */;
+}
